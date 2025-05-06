@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+  }
+  
+  body {
+    backdrop-filter: blur(5px);
+    background-image: url(img/BG.gif);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f0fa; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    padding: 15px 100px 8px;
+    display: flex;
+    align-items: center;
+    background-color: #6d49d1;
+    color: white;
+  }
+  
+  main {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bxs-chevron-up-circle {
+    color: #5160b5;
+  }
+  .bxs-chevron-down-circle {
+    color: #4550b1;
+  }
+  
+  .resumo {
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .resumo > div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px #b8bce0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    background-color: #dcdff5;
+  }
+  
+  .novo-item {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .divDesc, .divTipo, .divValor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .novoItem{
+    display: flex;
+    justify-content: center;
+    background-color: #5a75be;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 5px;
+    height: 34px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 82%;
+    cursor: pointer;
+  }
+  
+  input, select {
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #aeaff5;
+    background-color: #f4edff;
+  }
+  
+  .tabela-itens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 98%;
+    padding: 20px 0;
+    border-radius: 5px;
+    background-color: #e5e6fb;
+  }
+  
+  th {
+    text-align: start;
+    border-bottom: 2px solid #9dbadf;
+    padding-bottom: 5px;
+    color: #3a5b8c;
+  }
+  
+  i {
+    font-size: 25px;
+  }
+  
+  .columnAcao {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .columnAcao > button {
+    background: transparent;
+    border: none;
+    color: #596ab6;
+  }
+  
+  .columnValor {
+    width: 30%;
+  }
+  
+  .columnTipo {
+    width: 80px;
+    text-align: center;
+  }
+  .bemvindo{
+    display: flex;
+    text-align: center;
+  }
+  button{
+    color: #3a4d8c;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #aec1f5;
+  }
+  .campo-descricao, .campo-valor, .campo-tipo{
+    color: white;
+  }
