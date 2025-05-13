@@ -1,0 +1,141 @@
+/* Importando a fonte Questrial do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* Resetando as configurações padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+/* Estilizando o corpo da página */
+body {
+    background-image: url(img/EDA.jpg);
+    background-repeat: none;
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container principal do quiz */
+.container {
+    background-color: rgba(211, 171, 85, 0.671);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(68, 41, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+}
+
+/* Estilo do título */
+h1 {
+    text-align: center;
+    color: #92420d;
+    margin-bottom: 2rem;
+}
+
+/* Estilo do placar */
+#placar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f7d988;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Estilo dos números do placar */
+#placar span {
+    font-weight: bold;
+}
+
+/* Cor do número de acertos */
+#acertos {
+    color: #5d56bd;
+}
+
+/* Cor do número de erros */
+#erros {
+    color: #ff4444;
+}
+
+/* Estilo da pergunta */
+#pergunta {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+    text-align: center;
+}
+
+/* Estilo das opções de resposta */
+.opcao {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f7d988;
+    border: 2px solid #c0a866;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;   
+    transition: all 0.3s;
+}
+
+/* Efeito quando passar o mouse sobre a opção */
+.opcao:hover {
+    transform: transition 0.3s;
+    background-image: url(img/EDA.jpg);
+    opacity: 80%;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Estilo da opção selecionada */
+.opcao.selecionada {
+    background-image: url(img/EDA.jpg);
+    color: white;
+    border-color: #ffc400;
+}
+
+/* Estilo dos botões */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: #755a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+/* Classe para esconder elementos */
+.esconder {
+    display: none;
+}
+
+/* Estilo da tela de pontuação final */
+#pontuacao {
+    text-align: center;
+}
+
+/* Estilo do título da pontuação final */
+#pontuacao h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Estilo do texto da pontuação final */
+#pontuacao p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #444;
+} 
