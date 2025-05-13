@@ -1,12 +1,9 @@
-/* Importando a fonte Questrial do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-
 /* Resetando as configurações padrão do navegador */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Estilizando o corpo da página */
